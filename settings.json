@@ -111,7 +111,12 @@
       "quickInput.background": "#000000",
       "editorSuggestWidget.background": "#000000",
       "editorSuggestWidget.focusHighlightForeground": "#000000",
-      "list.focusHighlightForeground": "#000000"
+      "list.focusHighlightForeground": "#000000",
+
+      "gitDecoration.addedResourceForeground": "#cdffcd",
+      "gitDecoration.modifiedResourceForeground": "#ffc8a8",
+      "gitDecoration.stageModifiedResourceForeground": "#ffb88f",
+      "gitDecoration.deletedResourceForeground": "#ffa4a7"
     }
   }
 }
