@@ -58,6 +58,19 @@
           "settings": {
             "foreground": "#A7A9E9"
           }
+        },
+        {
+          "scope": "meta.embedded.line",
+          "settings": {
+            "foreground": "#FFFFFF"
+          }
+        },
+        {
+          "scope": "punctuation.definition.template-expression",
+          "settings": {
+            "foreground": "#dcb7ff",
+            "fontStyle": "bold"
+          }
         }
       ],
       "numbers": "#dcb7ff",
