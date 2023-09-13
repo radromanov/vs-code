@@ -1,0 +1,117 @@
+{
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "workbench.colorTheme": "White Night",
+  "window.titleBarStyle": "custom",
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "none",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.tabWidth": 2,
+  "editor.formatOnSave": true,
+  "editor.indentSize": "tabSize",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "dotnet.server.useOmnisharp": true,
+  "omnisharp.useModernNet": false,
+  "omnisharp.monoPath": "/usr/bin/mono",
+  "cmake.configureOnOpen": true,
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "${workspaceFolder}/include/**"
+  ],
+  "workbench.editor.labelFormat": "default",
+  "editor.tokenColorCustomizations": {
+    "[White Night]": {
+      "textMateRules": [
+        {
+          "name": "Object key",
+          "scope": "support.type.property-name.json",
+          "settings": {
+            "foreground": "#FAF3F0"
+          }
+        },
+        {
+          "name": "Quotes",
+          "scope": "punctuation.definition.string",
+          "settings": {
+            "foreground": "#cdffcd"
+          }
+        },
+        {
+          "name": "Escape \n",
+          "scope": "constant.character.escape",
+          "settings": {
+            "foreground": "#FFCACC"
+          }
+        },
+        {
+          "scope": "storage.type",
+          "settings": {
+            "foreground": "#FAF3F0",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "preview",
+          "settings": {
+            "foreground": "#FF0000",
+            "fontStyle": "bold"
+          }
+        }
+      ],
+      "numbers": "#dcb7ff",
+      "strings": "#cdffcd",
+      "functions": "#ffa4a7",
+      "comments": "#474747c2"
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[White Night]": {
+      "tab.activeBackground": "#292929c2",
+      "tab.inactiveBackground": "#00000000",
+      "tab.activeForeground": "#ffffff",
+      "tab.inactiveForeground": "#ffffff",
+      "tab.hoverBackground": "#292929",
+
+      "button.background": "#ffffff",
+      "button.foreground": "#000000",
+      "button.hoverBackground": "#e7e7e7",
+      "extensionButton.prominentForeground": "#000000",
+
+      "textLink.foreground": "#dcb7ff",
+      "textLink.activeForeground": "#c485ff",
+
+      "textBlockQuote.background": "#00000000",
+      "textBlockQuote.border": "#ffffff",
+
+      "editorLineNumber.activeForeground": "#ffffff",
+      "editorLineNumber.foreground": "#474747c2",
+
+      "editor.foreground": "#ffffff",
+      "editor.wordHighlightBackground": "#ffffff28",
+      "editor.selectionBackground": "#ffffff4d",
+      "editor.selectionHighlightBackground": "#ffffff28",
+      "editor.selectionHighlightBorder": "#ffffff4d",
+      "editor.lineHighlightBackground": "#0e0e0eb0",
+
+      "editorBracketMatch.background": "#ffffff28",
+      "editorBracketMatch.border": "#ffffff4d",
+
+      "activityBar.foreground": "#ffffff",
+      "statusBar.foreground": "#ffffff",
+
+      "sideBarSectionHeader.background": "#000000",
+      "minimap.selectionHighlight": "#ffffff28",
+      "scrollbarSlider.background": "#0e0e0eb0",
+      "editorCursor.foreground": "#ffffff",
+
+      // Command palette
+      "quickInput.background": "#000000",
+      "editorSuggestWidget.background": "#000000",
+      "editorSuggestWidget.focusHighlightForeground": "#000000",
+      "list.focusHighlightForeground": "#000000"
+    }
+  }
+}
