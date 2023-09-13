@@ -64,7 +64,7 @@
       "numbers": "#dcb7ff",
       "strings": "#cdffcd",
       "functions": "#ffa4a7",
-      "comments": "#474747c2"
+      "comments": "#5c5c5cc2"
     }
   },
   "workbench.colorCustomizations": {
@@ -91,8 +91,8 @@
 
       "editor.foreground": "#ffffff",
       "editor.wordHighlightBackground": "#ffffff28",
-      "editor.selectionBackground": "#ffffff4d",
-      "editor.selectionHighlightBackground": "#ffffff28",
+      "editor.selectionBackground": "#ffffff23",
+      "editor.selectionHighlightBackground": "#ffffff13",
       "editor.selectionHighlightBorder": "#ffffff4d",
       "editor.lineHighlightBackground": "#0e0e0eb0",
 
