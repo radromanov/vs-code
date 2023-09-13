@@ -54,17 +54,17 @@
           }
         },
         {
-          "scope": "preview",
+          "scope": "constant.language.boolean",
           "settings": {
-            "foreground": "#FF0000",
-            "fontStyle": "bold"
+            "foreground": "#A7A9E9"
           }
         }
       ],
       "numbers": "#dcb7ff",
       "strings": "#cdffcd",
-      "functions": "#ffa4a7",
-      "comments": "#5c5c5cc2"
+      "functions": "#e9a7a9",
+      "comments": "#5c5c5cc2",
+      "types": "#A7A9E9"
     }
   },
   "workbench.colorCustomizations": {
@@ -116,7 +116,12 @@
       "gitDecoration.addedResourceForeground": "#cdffcd",
       "gitDecoration.modifiedResourceForeground": "#ffc8a8",
       "gitDecoration.stageModifiedResourceForeground": "#ffb88f",
-      "gitDecoration.deletedResourceForeground": "#ffa4a7"
+      "gitDecoration.deletedResourceForeground": "#ffa4a7",
+
+      "list.errorForeground": "#ff888c",
+      "editorError.foreground": "#ff888c",
+      "list.warningForeground": "#ffc8a8",
+      "editorWarning.foreground": "#ffc8a8"
     }
   }
 }
